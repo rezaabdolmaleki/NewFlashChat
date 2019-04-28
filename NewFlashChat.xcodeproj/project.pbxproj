@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E789DA82275EA2800ECC612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DA72275EA2800ECC612 /* AppDelegate.swift */; };
-		1E789DAA2275EA2800ECC612 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DA92275EA2800ECC612 /* ViewController.swift */; };
-		1E789DAD2275EA2800ECC612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DAB2275EA2800ECC612 /* Main.storyboard */; };
 		1E789DAF2275EA2900ECC612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DAE2275EA2900ECC612 /* Assets.xcassets */; };
-		1E789DB22275EA2900ECC612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DB02275EA2900ECC612 /* LaunchScreen.storyboard */; };
+		1E789DCB2275EA8100ECC612 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBA2275EA8000ECC612 /* ViewController.swift */; };
+		1E789DCC2275EA8100ECC612 /* VCMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBB2275EA8000ECC612 /* VCMainPage.swift */; };
+		1E789DCD2275EA8100ECC612 /* VCChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBC2275EA8000ECC612 /* VCChatPage.swift */; };
+		1E789DCE2275EA8100ECC612 /* VCLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBD2275EA8000ECC612 /* VCLoginPage.swift */; };
+		1E789DCF2275EA8100ECC612 /* VCSignUpPAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBE2275EA8000ECC612 /* VCSignUpPAGE.swift */; };
+		1E789DD02275EA8100ECC612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBF2275EA8000ECC612 /* AppDelegate.swift */; };
+		1E789DD12275EA8100ECC612 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC02275EA8000ECC612 /* GoogleService-Info.plist */; };
+		1E789DD22275EA8100ECC612 /* MessageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DC22275EA8000ECC612 /* MessageRepository.swift */; };
+		1E789DD32275EA8100ECC612 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC52275EA8100ECC612 /* MessageCell.xib */; };
+		1E789DD42275EA8100ECC612 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DC62275EA8100ECC612 /* MessageCell.swift */; };
+		1E789DD52275EA8100ECC612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC72275EA8100ECC612 /* LaunchScreen.storyboard */; };
+		1E789DD62275EA8100ECC612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC92275EA8100ECC612 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E789DA42275EA2800ECC612 /* NewFlashChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFlashChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E789DA72275EA2800ECC612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E789DA92275EA2800ECC612 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E789DAC2275EA2800ECC612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E789DAE2275EA2900ECC612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E789DB12275EA2900ECC612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E789DB32275EA2900ECC612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E789DBA2275EA8000ECC612 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E789DBB2275EA8000ECC612 /* VCMainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMainPage.swift; sourceTree = "<group>"; };
+		1E789DBC2275EA8000ECC612 /* VCChatPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCChatPage.swift; sourceTree = "<group>"; };
+		1E789DBD2275EA8000ECC612 /* VCLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLoginPage.swift; sourceTree = "<group>"; };
+		1E789DBE2275EA8000ECC612 /* VCSignUpPAGE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSignUpPAGE.swift; sourceTree = "<group>"; };
+		1E789DBF2275EA8000ECC612 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E789DC02275EA8000ECC612 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E789DC22275EA8000ECC612 /* MessageRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageRepository.swift; sourceTree = "<group>"; };
+		1E789DC52275EA8100ECC612 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		1E789DC62275EA8100ECC612 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		1E789DC82275EA8100ECC612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E789DCA2275EA8100ECC612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +54,12 @@
 		1E789D9B2275EA2800ECC612 = {
 			isa = PBXGroup;
 			children = (
-				1E789DA62275EA2800ECC612 /* NewFlashChat */,
+				1E789DC02275EA8000ECC612 /* GoogleService-Info.plist */,
+				1E789DC12275EA8000ECC612 /* Model */,
+				1E789DC32275EA8100ECC612 /* View */,
+				1E789DB92275EA8000ECC612 /* Controller */,
+				1E789DAE2275EA2900ECC612 /* Assets.xcassets */,
+				1E789DB32275EA2900ECC612 /* Info.plist */,
 				1E789DA52275EA2800ECC612 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +72,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E789DA62275EA2800ECC612 /* NewFlashChat */ = {
+		1E789DB92275EA8000ECC612 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1E789DA72275EA2800ECC612 /* AppDelegate.swift */,
-				1E789DA92275EA2800ECC612 /* ViewController.swift */,
-				1E789DAB2275EA2800ECC612 /* Main.storyboard */,
-				1E789DAE2275EA2900ECC612 /* Assets.xcassets */,
-				1E789DB02275EA2900ECC612 /* LaunchScreen.storyboard */,
-				1E789DB32275EA2900ECC612 /* Info.plist */,
+				1E789DBA2275EA8000ECC612 /* ViewController.swift */,
+				1E789DBB2275EA8000ECC612 /* VCMainPage.swift */,
+				1E789DBC2275EA8000ECC612 /* VCChatPage.swift */,
+				1E789DBD2275EA8000ECC612 /* VCLoginPage.swift */,
+				1E789DBE2275EA8000ECC612 /* VCSignUpPAGE.swift */,
+				1E789DBF2275EA8000ECC612 /* AppDelegate.swift */,
 			);
-			path = NewFlashChat;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E789DC12275EA8000ECC612 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E789DC22275EA8000ECC612 /* MessageRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E789DC32275EA8100ECC612 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E789DC42275EA8100ECC612 /* MessageCell */,
+				1E789DC72275EA8100ECC612 /* LaunchScreen.storyboard */,
+				1E789DC92275EA8100ECC612 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E789DC42275EA8100ECC612 /* MessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E789DC52275EA8100ECC612 /* MessageCell.xib */,
+				1E789DC62275EA8100ECC612 /* MessageCell.swift */,
+			);
+			path = MessageCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +170,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E789DB22275EA2900ECC612 /* LaunchScreen.storyboard in Resources */,
 				1E789DAF2275EA2900ECC612 /* Assets.xcassets in Resources */,
-				1E789DAD2275EA2800ECC612 /* Main.storyboard in Resources */,
+				1E789DD62275EA8100ECC612 /* Main.storyboard in Resources */,
+				1E789DD52275EA8100ECC612 /* LaunchScreen.storyboard in Resources */,
+				1E789DD32275EA8100ECC612 /* MessageCell.xib in Resources */,
+				1E789DD12275EA8100ECC612 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +185,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E789DAA2275EA2800ECC612 /* ViewController.swift in Sources */,
-				1E789DA82275EA2800ECC612 /* AppDelegate.swift in Sources */,
+				1E789DCB2275EA8100ECC612 /* ViewController.swift in Sources */,
+				1E789DCD2275EA8100ECC612 /* VCChatPage.swift in Sources */,
+				1E789DCF2275EA8100ECC612 /* VCSignUpPAGE.swift in Sources */,
+				1E789DD02275EA8100ECC612 /* AppDelegate.swift in Sources */,
+				1E789DCC2275EA8100ECC612 /* VCMainPage.swift in Sources */,
+				1E789DCE2275EA8100ECC612 /* VCLoginPage.swift in Sources */,
+				1E789DD22275EA8100ECC612 /* MessageRepository.swift in Sources */,
+				1E789DD42275EA8100ECC612 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E789DAB2275EA2800ECC612 /* Main.storyboard */ = {
+		1E789DC72275EA8100ECC612 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1E789DAC2275EA2800ECC612 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1E789DB02275EA2900ECC612 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E789DB12275EA2900ECC612 /* Base */,
+				1E789DC82275EA8100ECC612 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1E789DC92275EA8100ECC612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E789DCA2275EA8100ECC612 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NewFlashChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NewFlashChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
