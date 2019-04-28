@@ -14,15 +14,17 @@
 		1E789DCE2275EA8100ECC612 /* VCLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBD2275EA8000ECC612 /* VCLoginPage.swift */; };
 		1E789DCF2275EA8100ECC612 /* VCSignUpPAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBE2275EA8000ECC612 /* VCSignUpPAGE.swift */; };
 		1E789DD02275EA8100ECC612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DBF2275EA8000ECC612 /* AppDelegate.swift */; };
-		1E789DD12275EA8100ECC612 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC02275EA8000ECC612 /* GoogleService-Info.plist */; };
 		1E789DD22275EA8100ECC612 /* MessageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DC22275EA8000ECC612 /* MessageRepository.swift */; };
 		1E789DD32275EA8100ECC612 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC52275EA8100ECC612 /* MessageCell.xib */; };
 		1E789DD42275EA8100ECC612 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E789DC62275EA8100ECC612 /* MessageCell.swift */; };
 		1E789DD52275EA8100ECC612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC72275EA8100ECC612 /* LaunchScreen.storyboard */; };
 		1E789DD62275EA8100ECC612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DC92275EA8100ECC612 /* Main.storyboard */; };
+		1E789DDC2275EFC100ECC612 /* GoogleService-Info 18.50.05.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E789DDB2275EFC100ECC612 /* GoogleService-Info 18.50.05.plist */; };
+		55409C445F32E7D2AE2CE358 /* Pods_NewFlashChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251C60294C778708038B522F /* Pods_NewFlashChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03DEC6B8A0BD7B81B7FA54B3 /* Pods-NewFlashChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewFlashChat.debug.xcconfig"; path = "Target Support Files/Pods-NewFlashChat/Pods-NewFlashChat.debug.xcconfig"; sourceTree = "<group>"; };
 		1E789DA42275EA2800ECC612 /* NewFlashChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFlashChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E789DAE2275EA2900ECC612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E789DB32275EA2900ECC612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,12 +34,14 @@
 		1E789DBD2275EA8000ECC612 /* VCLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLoginPage.swift; sourceTree = "<group>"; };
 		1E789DBE2275EA8000ECC612 /* VCSignUpPAGE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSignUpPAGE.swift; sourceTree = "<group>"; };
 		1E789DBF2275EA8000ECC612 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E789DC02275EA8000ECC612 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1E789DC22275EA8000ECC612 /* MessageRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageRepository.swift; sourceTree = "<group>"; };
 		1E789DC52275EA8100ECC612 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		1E789DC62275EA8100ECC612 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		1E789DC82275EA8100ECC612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E789DCA2275EA8100ECC612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E789DDB2275EFC100ECC612 /* GoogleService-Info 18.50.05.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info 18.50.05.plist"; sourceTree = "<group>"; };
+		251C60294C778708038B522F /* Pods_NewFlashChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewFlashChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4487D23F8C51A241E22CC0 /* Pods-NewFlashChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewFlashChat.release.xcconfig"; path = "Target Support Files/Pods-NewFlashChat/Pods-NewFlashChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55409C445F32E7D2AE2CE358 /* Pods_NewFlashChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,13 +59,15 @@
 		1E789D9B2275EA2800ECC612 = {
 			isa = PBXGroup;
 			children = (
-				1E789DC02275EA8000ECC612 /* GoogleService-Info.plist */,
+				1E789DDB2275EFC100ECC612 /* GoogleService-Info 18.50.05.plist */,
 				1E789DC12275EA8000ECC612 /* Model */,
 				1E789DC32275EA8100ECC612 /* View */,
 				1E789DB92275EA8000ECC612 /* Controller */,
 				1E789DAE2275EA2900ECC612 /* Assets.xcassets */,
 				1E789DB32275EA2900ECC612 /* Info.plist */,
 				1E789DA52275EA2800ECC612 /* Products */,
+				C8E2E11084EC56AD630D5FDD /* Pods */,
+				EDF05CD8F3BADB874CE68B45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +119,23 @@
 			path = MessageCell;
 			sourceTree = "<group>";
 		};
+		C8E2E11084EC56AD630D5FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03DEC6B8A0BD7B81B7FA54B3 /* Pods-NewFlashChat.debug.xcconfig */,
+				6C4487D23F8C51A241E22CC0 /* Pods-NewFlashChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDF05CD8F3BADB874CE68B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				251C60294C778708038B522F /* Pods_NewFlashChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E789DB62275EA2900ECC612 /* Build configuration list for PBXNativeTarget "NewFlashChat" */;
 			buildPhases = (
+				7B013906CF9CA9CDB9FA138E /* [CP] Check Pods Manifest.lock */,
 				1E789DA02275EA2800ECC612 /* Sources */,
 				1E789DA12275EA2800ECC612 /* Frameworks */,
 				1E789DA22275EA2800ECC612 /* Resources */,
+				9F4F8FF1C5C234C4B1BEF02C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,14 +197,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E789DAF2275EA2900ECC612 /* Assets.xcassets in Resources */,
+				1E789DDC2275EFC100ECC612 /* GoogleService-Info 18.50.05.plist in Resources */,
 				1E789DD62275EA8100ECC612 /* Main.storyboard in Resources */,
 				1E789DD52275EA8100ECC612 /* LaunchScreen.storyboard in Resources */,
 				1E789DD32275EA8100ECC612 /* MessageCell.xib in Resources */,
-				1E789DD12275EA8100ECC612 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B013906CF9CA9CDB9FA138E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewFlashChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4F8FF1C5C234C4B1BEF02C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewFlashChat/Pods-NewFlashChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewFlashChat/Pods-NewFlashChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E789DA02275EA2800ECC612 /* Sources */ = {
@@ -336,6 +417,7 @@
 		};
 		1E789DB72275EA2900ECC612 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DEC6B8A0BD7B81B7FA54B3 /* Pods-NewFlashChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,7 +426,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rezaabdolmaleki.third.NewFlashChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezaabdolmaleki.NewFlashChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,6 +435,7 @@
 		};
 		1E789DB82275EA2900ECC612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4487D23F8C51A241E22CC0 /* Pods-NewFlashChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -361,7 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rezaabdolmaleki.third.NewFlashChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezaabdolmaleki.NewFlashChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
