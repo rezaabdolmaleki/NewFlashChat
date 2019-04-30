@@ -14,6 +14,12 @@ extension UIViewController {
         let alertVC = UIAlertController(title: "Alert", message: messageTXT, preferredStyle: .alert)
         let action = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
         alertVC.addAction(action)
-        present(alertVC,animated: true)
+        present(alertVC,animated: true, completion: nil)
+    }
+    
+    func showAlert(messageTXT : String, actionAlert : UIAlertAction) {
+        let alertVC = UIAlertController(title: "Alert", message: messageTXT, preferredStyle: .actionSheet)
+        alertVC.addAction(actionAlert)
+        present(alertVC,animated: true, completion: nil)
     }
 }

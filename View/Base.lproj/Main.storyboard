@@ -13,7 +13,7 @@
         <!--Main Page-->
         <scene sceneID="ZNy-m8-CIk">
             <objects>
-                <viewController id="0Dy-49-DRs" customClass="VCMainPage" customModule="NewChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Dy-49-DRs" customClass="VCMainPage" customModule="NewFlashChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="52W-tv-JCp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +66,7 @@
         <!--Login Page-->
         <scene sceneID="FEH-JB-9DR">
             <objects>
-                <viewController id="hKT-iv-g23" customClass="VCLoginPage" customModule="NewChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hKT-iv-g23" customClass="VCLoginPage" customModule="NewFlashChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uIY-zn-rlX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="F1u-p4-nDE" kind="show" id="vZL-ff-8h6"/>
+                                    <action selector="btnLogin:" destination="hKT-iv-g23" eventType="touchUpInside" id="GFd-HF-AmS"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dhV-sT-Bb0">
@@ -104,6 +104,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QaS-Rf-BV8"/>
                     </view>
+                    <connections>
+                        <outlet property="txtPassword" destination="dhV-sT-Bb0" id="Ifw-2Y-PmK"/>
+                        <outlet property="txtUsername" destination="uQR-Kp-e4f" id="r9r-0m-ySP"/>
+                        <segue destination="F1u-p4-nDE" kind="show" identifier="goToChat" id="bY4-xB-yDU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RpK-BB-uKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +117,7 @@
         <!--Chat Page-->
         <scene sceneID="Q6F-sj-urN">
             <objects>
-                <viewController id="F1u-p4-nDE" customClass="VCChatPage" customModule="NewChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="chatPageVC" id="F1u-p4-nDE" customClass="VCChatPage" customModule="NewFlashChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e3F-Nf-AJw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,6 +145,9 @@
                                         <state key="normal" title="Sent">
                                             <color key="titleColor" red="0.0" green="0.92084163427352905" blue="0.99601751565933228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnSendMessage:" destination="F1u-p4-nDE" eventType="touchUpInside" id="Bqm-3a-jqk"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -162,6 +170,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fhf-QN-3qg"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nhz-ez-1Xd"/>
+                    <connections>
+                        <outlet property="heighViewMessage" destination="9AO-cZ-aDr" id="5g5-w0-s3f"/>
+                        <outlet property="messageInput" destination="gtW-Xw-peb" id="1QO-Rv-Gnx"/>
+                        <outlet property="messageTable" destination="1ao-i7-YuQ" id="aUB-lG-eVl"/>
+                        <outlet property="sendBtn" destination="tVY-WT-BMJ" id="IXt-If-LKL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VGO-gq-Qar" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,7 +185,7 @@
         <!--Sign UpPAGE-->
         <scene sceneID="q49-xQ-6jB">
             <objects>
-                <viewController id="dQL-Vw-qD2" customClass="VCSignUpPAGE" customModule="NewChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="registerVC" id="dQL-Vw-qD2" customClass="VCSignUpPAGE" customModule="NewFlashChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kci-2M-nMJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,14 +194,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vaY-TO-7OR">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1@11.com" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vaY-TO-7OR">
                                 <rect key="frame" x="66" y="627" width="282" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ubj-gl-Vc1">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="aaaaaa" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ubj-gl-Vc1">
                                 <rect key="frame" x="66" y="665" width="282" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -201,13 +216,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="F1u-p4-nDE" kind="show" id="Fqw-uT-Oak"/>
+                                    <action selector="signupAction:" destination="dQL-Vw-qD2" eventType="touchUpInside" id="1NN-xp-G5p"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uRK-CS-eTa"/>
                     </view>
+                    <connections>
+                        <outlet property="txtPassword" destination="ubj-gl-Vc1" id="FYd-Ew-Y1b"/>
+                        <outlet property="txtUsername" destination="vaY-TO-7OR" id="R5D-pf-dsD"/>
+                        <segue destination="F1u-p4-nDE" kind="show" identifier="goToChat" id="cHJ-gw-i0v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7i-Qh-Z9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -238,6 +258,6 @@
         <image name="signUp" width="500" height="750"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vZL-ff-8h6"/>
+        <segue reference="bY4-xB-yDU"/>
     </inferredMetricsTieBreakers>
 </document>
